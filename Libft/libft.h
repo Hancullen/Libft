@@ -6,13 +6,14 @@
 /*   By: linguyen <linguyen@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/11 21:23:03 by linhnguyen        #+#    #+#             */
-/*   Updated: 2021/05/28 15:26:25 by linguyen         ###   ########.fr       */
+/*   Updated: 2021/05/27 22:31:48 by linguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stdlib.h>
+# include <string.h>
 # include <unistd.h>
 
 # define CHAR_BIT 8
