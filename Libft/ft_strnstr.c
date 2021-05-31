@@ -6,7 +6,7 @@
 /*   By: linguyen <linguyen@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/13 23:07:05 by linguyen          #+#    #+#             */
-/*   Updated: 2021/05/29 17:53:16 by linguyen         ###   ########.fr       */
+/*   Updated: 2021/05/31 21:36:38 by linguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t n)
 	size_t	i;
 	size_t	j;
 
-	if (*needle == 0 || (haystack == needle))
-		return ((char *)haystack);
 	i = 0;
+	if (needle[i] == '\0' || (haystack == needle))
+		return ((char *)haystack);
 	while (haystack[i] && i < n)
 	{
 		j = 0;
