@@ -1,6 +1,9 @@
 <!-- Add banner here -->
-![Banner](https://github.com/Hancullen/Libft/blob/master/project-libft.jpg)
+<p align="center">
+	<img src="https://github.com/Hancullen/Libft/blob/master/project-libft.jpg">
+</p>
 
+<!-- Project Title -->
 # LIBFT - 42 Wolfsburg
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Hancullen/Libft)

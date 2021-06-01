@@ -6,7 +6,7 @@
 /*   By: linguyen <linguyen@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/14 15:07:07 by linguyen          #+#    #+#             */
-/*   Updated: 2021/05/24 15:44:04 by linguyen         ###   ########.fr       */
+/*   Updated: 2021/06/01 15:29:48 by linguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char	*sub_str;
 	size_t	i;
 
+	if (!s)
+		return (NULL);
 	if (ft_strlen(s) < start)
 	{
 		sub_str = malloc(sizeof(char));
